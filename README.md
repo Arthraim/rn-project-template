@@ -17,7 +17,7 @@
 1. `react-native init MY_AWESOME_PROJECT`
 2. `cd MY_AWESOME_PROJECT`
 3. `git remote add template GIT_REPO_OF_THIS_PROJECT`
-4. `git pull template master`
+4. `git pull template master`, add `--allow-unrelated-histories` for git version >= 2.9
 5. `yarn install`
 6. `typings install`
 7. `gulp watch`
